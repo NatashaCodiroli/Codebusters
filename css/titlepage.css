@@ -1,19 +1,108 @@
 
+/*Main body and header styles*/
 
-.africa {
-  fill:#f9f;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.asia:hover {
-  fill: #fff;
-
-}
-
-.asia {
-  fill:#a9f;
+.body {
+  background-color:	#2a3444;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  font-family: helvetica;
+  text-align: center;
 }
 
 .header {
-  color:green;
-  position:center;
+  color:#ff7373;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 56px;
+}
+.container {
+  padding-left: 10px;
+}
+
+/*Map styles*/
+
+.map {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.africa {
+  fill:#5f96c9;
+}
+.africa:hover {
+  fill: #ff7373;
+}
+
+.asia {
+  fill:#5f96c9;
+}
+.asia:hover {
+  fill: #ff7373;
+}
+
+.australasia {
+  fill:#5f96c9;
+}
+.australasia:hover {
+  fill: #ff7373;
+}
+
+.europe {
+  fill:#5f96c9;
+}
+.europe:hover {
+  fill: #ff7373;
+}
+
+.southamerica {
+  fill:#5f96c9;
+}
+.southamerica:hover {
+  fill: #ff7373;
+}
+
+.northamerica {
+  fill:#5f96c9;
+}
+.northamerica:hover {
+  fill: #ff7373;
+}
+
+/*Social buttons styles*/
+
+
+#social {
+  color:#2a3444;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #2a3444;
+}
+
+.btn-twitter {
+ color: black;
+ background: #00acee;
+ border-color: #009ad5;
+}
+
+.btn-facebook {
+ color: black;
+ background: #4868ac;
+ border-color: #314776;
+}
+.btn-pinterest {
+ color: black;
+ background: #b62f26;
+ border-color: #b62f26;
 }
