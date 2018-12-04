@@ -6,6 +6,21 @@
   padding: 0;
 }
 
+.navbar {
+  background-color:	#d4d2d4;
+  border-color: #5f96c9;
+  border-width: medium;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #2a3444;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #5f96c9;
+    border-width: medium;
+}
+
 .body {
   background-color:	#2a3444;
   display: block;
@@ -81,13 +96,14 @@ h1 {
 /*Social buttons styles*/
 
 
-#social {
+.social {
   color:#2a3444;
   padding-bottom: 50px;
 }
 
-h2 {
-  color: #2a3444;
+.social h2 {
+  color: #d4d2d4;
+  font-size: 1em;
 }
 
 .btn-twitter {
